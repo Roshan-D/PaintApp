@@ -67,7 +67,7 @@ function draw(e) {
 
   ctx.lineWidth = 4; // width of line
   ctx.lineCap = "round"; // rounded end cap for smooth lines
-  ctx.strokeStyle = "#123abc"; // hex color of line
+  ctx.strokeStyle = pickr.getColor().toHEXA(); // hex color of line
 
   ctx.moveTo(pos.x, pos.y); // from position
   setPosition(e);
