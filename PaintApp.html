@@ -1,0 +1,29 @@
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Web Paint!
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="child">
+                <a class="button" id="clear_btn">Clear</a>
+            </div>
+
+            <div class="child">
+                <a href="#" class="button" id="save_btn" download="myCanvas.png">Save Canvas</a>
+            </div>
+
+            <div class="color-picker child" id="hex"></div>
+        </div>
+        <canvas id="canvas"></canvas>
+
+        <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+        <script src="app.js"></script> 
+    </body>
+    </html>
