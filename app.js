@@ -76,13 +76,13 @@ function draw(e) {
   ctx.stroke(); // draw it!
 }
 
-
+//handles key presses
 function keyPress(event) {
   if (event.key === "c") {
     clear();
   }
   if (event.key === "s") {
-    document.getElementByClassName("color-picker").;
+    document.getElementById("savebtn").click();
   }
 }
 
@@ -108,6 +108,5 @@ document.addEventListener("keydown", keyPress)
 
 
 // Things to do:
-// Allow specification of where to save canvases
-// Add different drawing tools
+// Add different drawing tools (preset thicknesses and stuff)
 // Add options menu to modify the options and stuff
